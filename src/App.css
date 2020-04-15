@@ -46,7 +46,7 @@ time, mark, audio, video {
     align-items: center;
     /* height: 100%;
     width: 100%; */
-    padding: 30px;
+    padding: 15px 10px 15px 10px;
 
     border-radius: 2px;
     background-color: rgba(255, 255, 255, .85);
@@ -70,7 +70,8 @@ h1 {
 
 
 #quote-wrapper {
-    max-width: 250px;
+    max-width: 300px;
+	padding: 30px;
     margin: 20px auto;
 
     text-align: left;
@@ -89,16 +90,17 @@ h1 {
 
 #button-wrapper {
     /* margin-top: 10px; */
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between; */
+	width: 100%;
 }
 
 
 #new-quote, #tweet-quote {
     border: 1px black solid;
     padding: 5px 10px;
-    margin: 10px;
+    /* margin: 10px; */
 
 
     border-radius: 3px;
@@ -117,10 +119,10 @@ h1 {
     color: rgba(255, 255, 255, .85)
 }
 
-#new-quote {
-
+#tweet-quote {
+	float: left;
 }
 
-#tweet-quote {
-
+#new-quote {
+	float: right;
 }

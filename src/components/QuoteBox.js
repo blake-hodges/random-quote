@@ -29,14 +29,16 @@ class QuoteBox extends Component {
         return (
             <div id="container">
                 <div id="quote-box">
-                    <h1>Quote Machine</h1>
+                    <h1>Quote of the Day</h1>
                     <div id="quote-wrapper">
                         <p id="text">{this.state.text}</p>
                         <p id="author">-{this.state.author}</p>
                     </div>
                     <div id="button-wrapper">
+                        <a id="tweet-quote" href={this.state.tweetURL} className="twitter-share-button" target="_blank" rel="noreferrer noopener">
+                            <i className="fa fa-twitter"></i>
+                        </a>
                         <a id="new-quote" href="#" onClick={this.newQuote}>New Quote</a>
-                        <a id="tweet-quote" href={this.state.tweetURL} className="twitter-share-button" target="_blank" rel="noreferrer noopener">Tweet Quote</a>
                     </div>
                 </div>
             </div>
