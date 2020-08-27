@@ -96,33 +96,38 @@ h1 {
 	width: 100%;
 }
 
+#tweet-quote, #new-quote {
+	padding: 10px 10px 5px 10px;
 
-#new-quote, #tweet-quote {
-    border: 1px black solid;
-    padding: 5px 10px;
-    /* margin: 10px; */
-
-
-    border-radius: 3px;
+	border-radius: 3px;
     border: 2px solid #0072bc;
 
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #0072bc;
+	color: #0072bc;
     font-weight: 700;
-
-
 }
 
-#new-quote:hover, #tweet-quote:hover {
+#tweet-quote:hover, #new-quote:hover {
     background-color: #0072bc;
     color: rgba(255, 255, 255, .85)
 }
 
 #tweet-quote {
 	float: left;
+
+    text-decoration: none;
 }
 
 #new-quote {
 	float: right;
+
+	background-color: rgba(0,0,0,0.0);
+
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+
+}
+
+#new-quote:focus {
+	outline: none;
 }

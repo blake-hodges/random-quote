@@ -1,4 +1,14 @@
+## to do
+
+-onload random Quote
+-clean up directories - images, fonts, etc.
+-get site working on github pages
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
