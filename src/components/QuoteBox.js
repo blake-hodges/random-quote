@@ -35,9 +35,9 @@ class QuoteBox extends Component {
                         <p id="author">-{this.state.author}</p>
                     </div>
                     <div id="button-wrapper">
-                        <button id="tweet-quote" href={this.state.tweetURL} className="twitter-share-button" target="_blank" rel="noreferrer noopener">
+                        <a id="tweet-quote" href={this.state.tweetURL} className="twitter-share-button" target="_blank" rel="noreferrer noopener">
                             <i className="fa fa-twitter"></i>
-                        </button>
+                        </a>
                         <button id="new-quote" onClick={this.newQuote}>New Quote</button>
                     </div>
                 </div>
